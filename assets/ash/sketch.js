@@ -1,7 +1,7 @@
 let blue = 150;
 let canvas;
 function setup(){
-  canvas = createCanvas(1000, 1000)
+canvas = createCanvas(1000, 1000)
 canvas.position(0, 0);
 canvas.style('z-index', '-1');
 }
