@@ -3,9 +3,17 @@ body{
   font-size: 140px;
 }
 
-a{
+/* a{
   font-size: 30px;
-}
+} */
 .linkText{
   font-size: 30px;
 }
+footer {
+  font-size:20px;
+  position: absolute;
+  bottom: 10px;
+
+}
+
+#map { height: 500px; }
