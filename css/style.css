@@ -14,6 +14,7 @@ body{
 .linkText{
   font-size: 30px;
 }
+<<<<<<< Updated upstream
 footer {
   font-size:20px;
   position: absolute;
@@ -62,3 +63,8 @@ width: 20%;
   background: #04AA6D; /* Green background */
   cursor: pointer; /* Cursor on hover */
 }
+=======
+.title{
+  font-size: 100px;
+}
+>>>>>>> Stashed changes
