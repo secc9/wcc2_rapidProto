@@ -52,6 +52,7 @@ https://www.youtube.com/watch?v=Ae73YY_GAU8
 
     <!-- MAP STARTS HERE -->
     <script>
+        src="./javascript/map.js"
         const map = L.map('map').setView([51.505, -0.09], 15);
 
         L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -68,6 +69,8 @@ const ieva = L.icon({
 
 // marker of tate
 var marker = L.marker([51.507685, -0.099073], {icon: ieva}).addTo(map);
+
+
 
 var popup = L.popup()
     .setLatLng([51.507685, -0.099073])
