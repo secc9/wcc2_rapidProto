@@ -52,6 +52,7 @@ https://www.youtube.com/watch?v=Ae73YY_GAU8
 
     <!-- MAP STARTS HERE -->
     <script>
+        src="./javascript/map.js"
         const map = L.map('map').setView([51.505, -0.09], 15);
 
         L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -66,52 +67,10 @@ const ieva = L.icon({
     iconAnchor:[25,16]
 })
 
-// icon paula
-const paula = L.icon({
-  iconUrl: './assets/images/parque la pera.jpg',
-  iconSize: [32,32],
-  iconAnchor:[25,16]
-})
-
-//second picture
-const paula2 = L.icon({
-  iconUrl: './assets/images/torres.jpg',
-  iconSize: [32,32],
-  iconAnchor:[25,16]
-})
-
-//third picture
-const paula3 = L.icon({
-  iconUrl: './assets/images/san pio.jpg',
-  iconSize: [32,32],
-  iconAnchor:[25,16]
-})
-
-// col marker
-var marker1 = L.marker([7.06980, -73.10743], {icon: paula}).addTo(map);
-
-var marker2 = L.marker([7.06921, -73.10560], {icon: paula2}).addTo(map);
-
-var marker3 = L.marker([7.11897, -73.10940], {icon: paula3}).addTo(map);
-
-var popup1 = L.popup()
-    .setLatLng([7.06980, -73.10743])
-    .setContent("La Pera Park")
-    .openOn(map);
-
-var popup2 = L.popup()
-    .setLatLng([7.11897, -73.10940])
-    .setContent("Towers of Cañaveral")
-    .openOn(map);
-
-var popup1 = L.popup()
-    .setLatLng([7.06921, -73.10560])
-    .setContent("San Pio Park")
-    .openOn(map);
-
-
 // marker of tate
 var marker = L.marker([51.507685, -0.099073], {icon: ieva}).addTo(map);
+
+
 
 var popup = L.popup()
     .setLatLng([51.507685, -0.099073])
