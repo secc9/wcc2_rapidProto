@@ -54,7 +54,7 @@ https://www.youtube.com/watch?v=Ae73YY_GAU8
     <!-- MAP STARTS HERE -->
     <script>
         src="./javascript/map.js"
-        const map = L.map('map').setView([51.505, -0.09], 15);
+        const map = L.map('map').setView([51.505, -0.09], 3);
 
         L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 19,
@@ -65,12 +65,14 @@ https://www.youtube.com/watch?v=Ae73YY_GAU8
 // icon image
 
 
-<!---------------------IEVA-------------------------------->
+/////////////////////IEVA
 const ieva = L.icon({
     iconUrl: './assets/images/IV selfie.jpg',
     iconSize: [32,32],
     iconAnchor:[25,16]
 })
+
+
 
 // marker of tate
 var marker = L.marker([51.507685, -0.099073], {icon: ieva}).addTo(map);
@@ -81,35 +83,55 @@ var popup = L.popup()
     .setLatLng([51.507685, -0.099073])
     .setContent("Tate Modern")
     .openOn(map);
+
+
+
+//////////////////PAULA
+ 
+
+////////////////////KRUTI
+
+
+
+
+
+
+
+
+///////////////ASHISH
+
+
+
+
+
+
+
+
+
+
+//////////////ASH
+
+const ash = L.icon({
+  iconUrl: './assets/images/ash_image.jpeg',
+  iconSize: [32,32],
+  iconAnchor:[25,16]
+})
+
+// marker of leeds
+var marker = L.marker([53.8247168,-1.5663104], {icon: ash}).addTo(map);
+
+var popup = L.popup()
+  .setLatLng([51.507685, -0.099073])
+  .setContent("Tate Modern")
+  .openOn(map);
+
 </script>
 
 
-<!----------------PAULA------------------------------->
- 
-
-<!------------------KRUTI------------------------------->
 
 
 
 
-
-
-
-
-<!-----------------ASHISH-------------------------->
-
-
-
-
-
-
-
-
-
-
-
-
-<!-----------------ASH-------------------------------------->
 
 <!-- user functions-->
 <!--year range slider-->
