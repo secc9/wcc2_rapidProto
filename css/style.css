@@ -69,10 +69,23 @@ width: 20%;
   background: #04AA6D; /* Green background */
   cursor: pointer; /* Cursor on hover */
 }
+#yearSelect{
+  margin-left: 0px ;
+  font-family: Helvetica, sans-serif;
+  font-size: larger;
+  background-color: #04aa6d9d;
+  color: #f4faf8;
+  padding-left: 200px;
+  padding-right: 200px;
+
+}
 
 
 /*location input box*/
 
+.inputBox{
+  display: flexbox;
+}
 #fname{
   margin-left: 1000px;
 }
