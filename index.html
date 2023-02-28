@@ -18,8 +18,12 @@ https://www.youtube.com/watch?v=Ae73YY_GAU8
 <html lang="en" dir="ltr">
 
 <head>
+     <!-- meta viewport tag needed to make site responsive on movile devices https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag-->
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+
   <meta charset="utf-8">
-  <title>Map</title>
+  <title>the connection between us</title>
   <meta name="author" content="wcc2 group">
   <meta name="description" content="rapid prototype">
 
@@ -47,7 +51,7 @@ https://www.youtube.com/watch?v=Ae73YY_GAU8
    
 
 
-  <h1 id="title">the connection between us</h1>
+  <h1 class="flex-container" id="title">the connection between us</h1>
 
     <div id="map"></div>
 
@@ -135,25 +139,25 @@ var popup = L.popup()
 
 <!-- user functions-->
 <!--year range slider-->
+<section class="flex-container">
 <div class="slidecontainer">
-  <label id="yearSelect" for="yearSelect">Year</label><br>
+  <label class="flex-item" id="yearSelect" for="yearSelect">Year</label><br>
   <input type="range" min="1" max="100" class="slider" id="myRange">
-
 </div>
 
-
 <!-- Form for input-->
-<div class="inputBox">
+<div class="flex-item">
   <form>
-    <label id="fname" for="fname">First name:</label><br>
+    <label  id="fname" for="fname">First name:</label><br>
     <input type="text" id="fname" name="fname"><br>
-    <label id="location" for="location">Location:</label><br>
+    <label  id="location" for="location">Location:</label><br>
     <input type="text" id="location" name="location">
 
     <input type="submit" value="Submit">
   </form>
 </div>
 
+</section>
 
 <!--location box-->
 <!--
