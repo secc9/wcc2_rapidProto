@@ -27,6 +27,8 @@ var marker = L.marker([54.897108, 23.919936], {icon: ieva}).addTo(map);
 marker.bindPopup("<p>Laisvės Alėja </b> <img src='./assets/images/laisves-aleja.jpg' style='width:100%;height:100%;'></p>").openPopup();
 
 
+
+
 // var popup = L.popup()
 //     .setLatLng([51.507685, -0.099073])
 //     .setContent("Laisves Aleja")
