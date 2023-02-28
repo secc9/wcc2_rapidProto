@@ -75,7 +75,10 @@ const paula = L.icon({
 // col marker
 var marker1 = L.marker([8.233420, -73.353310], {icon: paula}).addTo(map);
 
-marker1.bindPopup("<p>San Francisco </b> <img src='./assets/images/ocaña.jpg' style='width:100%;height:100%;'></p>").openPopup();
+
+//add your info of the location
+marker.bindPopup("<p>San Francisco </b> <img src='./assets/images/ocaña.jpg' style='width:100%;height:100%;'></p>").openPopup();
+
 
 // var marker2 = L.marker([10.391049, -75.479424], {icon: paula2}).addTo(map);
 
@@ -100,6 +103,7 @@ var popup1 = L.popup()
 
 ////////////////////KRUTI
 /////Jaipur
+
 const kruti = L.icon({
   iconUrl: './assets/images/jaipur.jpg',//change picture
   iconSize: [32,32],
