@@ -103,7 +103,7 @@ var popup1 = L.popup()
 /////Jaipur
 
 const kruti = L.icon({
-  iconUrl: './assets/images/jaipur.jpg',//change picture
+  iconUrl: './assets/images/kruti selfie.jpg',//change picture
   iconSize: [32,32],
   iconAnchor:[25,16]
 })
@@ -113,6 +113,9 @@ const kruti = L.icon({
 
 // marker of Jaipur
 var marker = L.marker([26.922070, 75.778885], {icon: kruti}).addTo(map);
+
+//add your info of the location
+marker.bindPopup("<p>Jaipur </b> <img src='./assets/images/jaipur.jpg' style='width:100%;height:100%;'></p>").openPopup();
 
 
 
