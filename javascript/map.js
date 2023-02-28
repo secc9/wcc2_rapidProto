@@ -75,7 +75,7 @@ const paula = L.icon({
 // col marker
 var marker1 = L.marker([8.233420, -73.353310], {icon: paula}).addTo(map);
 
-marker.bindPopup("<p>San Francisco </b> <img src='./assets/images/ocaña.jpg' style='width:100%;height:100%;'></p>").openPopup();
+marker1.bindPopup("<p>San Francisco </b> <img src='./assets/images/ocaña.jpg' style='width:100%;height:100%;'></p>").openPopup();
 
 // var marker2 = L.marker([10.391049, -75.479424], {icon: paula2}).addTo(map);
 
