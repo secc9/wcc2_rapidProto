@@ -122,10 +122,7 @@ marker.bindPopup("<p>Jaipur </b> <img src='./assets/images/jaipur.jpg' style='wi
 
 
 
-var popup = L.popup()
-  .setLatLng([26.922070, 75.778885])
-  .setContent("Jaipur")
-  .openOn(map);
+
 
 // /////Auroville
 // const kruti2 = L.icon({
