@@ -53,11 +53,11 @@ map.fitBounds(polyline.getBounds());
 
 // icon paula
 const paula = L.icon({
-  iconUrl: './assets/images/paula.jpg',
+  iconUrl: './assets/images/paula.jpg', 
   iconSize: [32,32],
   iconAnchor:[25,16]
 })
-
+////////
 // //second picture
 // const paula2 = L.icon({
 //   iconUrl: './assets/images/cartagena.jpg',
