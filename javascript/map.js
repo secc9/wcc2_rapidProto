@@ -19,7 +19,6 @@ const ieva = L.icon({
 
 
 
-
 // marker of tate
 var marker = L.marker([51.507685, -0.099073], {icon: ieva}).addTo(map);
 
