@@ -212,7 +212,7 @@ const ash = L.icon({
 // marker of leeds
 var marker = L.marker([53.828217, -1.566547], {icon: ash}).addTo(map);
 
-// var popup = L.popup()
-//   .setLatLng([51.507685, -0.099073])
-//   .setContent("Tate Modern")
-//   .openOn(map);
+
+// marker of Leighton Reservoir 
+//add your info of the location
+marker.bindPopup("<p>Leighton Reservoir </b> <img src='./assets/images/reservoir.jpg' style='width:100%;height:100%;'></p>").openPopup();
