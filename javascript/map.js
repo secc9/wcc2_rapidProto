@@ -1,4 +1,4 @@
-// src="./javascript/map.js"
+
         const map = L.map('map').setView([51.505, -0.09], 3);
 
         L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -6,8 +6,7 @@
         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
 
-// <!-- paula -->
-// icon image
+
 
 
 /////////////////////IEVA
@@ -36,10 +35,36 @@ marker.bindPopup("<p>Laisvės Alėja </b> <img src='./assets/images/laisves-alej
 
     // create a red polyline from an array of LatLng points
 var latlngs = [
-    [54.897108, 23.919936],
-    [53.828217, -1.566547],
-    [8.233420, -73.353310],
-    [26.922070, 75.778885]
+  //ieva
+    [54.897108, 23.919936], //ieva
+    [53.828217, -1.566547], //ash
+    [54.897108, 23.919936], //ieva
+    [8.233420, -73.353310], //paula
+    [54.897108, 23.919936], //ieva
+    [26.922070, 75.778885], //kruti
+    [54.897108, 23.919936], //ieva
+    [25.2702, 91.7323], //ashish
+
+  //ash
+  
+  [53.828217, -1.566547], //ash
+  [8.233420, -73.353310], //paula
+  [53.828217, -1.566547], //ash
+  [26.922070, 75.778885], //kruti
+  [53.828217, -1.566547], //ash
+  [25.2702, 91.7323], //ashish
+
+  //paula
+  [8.233420, -73.353310], //paula
+  [26.922070, 75.778885], //kruti
+  [8.233420, -73.353310], //paula
+  [25.2702, 91.7323], //ashish
+
+  //kruti
+  [26.922070, 75.778885], //kruti
+  [25.2702, 91.7323] //ashish
+
+
 
 ];
 
@@ -78,17 +103,17 @@ var marker1 = L.marker([8.233420, -73.353310], {icon: paula}).addTo(map);
 
 
 //add your info of the location
-marker1.bindPopup("<p>San Francisco </b> <img src='./assets/images/ocaña.jpg' style='width:100%;height:100%;'></p>").openPopup();
+marker1.bindPopup("<p>Ocaña </b> <img src='./assets/images/ocaña.jpg' style='width:100%;height:100%;'></p>").openPopup();
 
 
 // var marker2 = L.marker([10.391049, -75.479424], {icon: paula2}).addTo(map);
 
 // var marker3 = L.marker([7.11897, -73.10940], {icon: paula3}).addTo(map);
 
-var popup1 = L.popup()
-    .setLatLng([7.06980, -73.10743])
-    .setContent("Ocaña")
-    .openOn(map);
+// var popup1 = L.popup()
+//     .setLatLng([7.06980, -73.10743])
+//     .setContent("Ocaña")
+//     .openOn(map);
 
 // var popup2 = L.popup()
 //     .setLatLng([7.11897, -73.10940])
@@ -192,7 +217,25 @@ marker.bindPopup("<p>Jaipur </b> <img src='./assets/images/jaipur.jpg' style='wi
 
 ///////////////ASHISH
 
+/////Cherrapunji
+const ashish2 = L.icon({
+  iconUrl: './assets/images/ashishplace.jpeg',//change picture
+  iconSize: [32,32],
+  iconAnchor:[25,16]
+})
 
+
+
+
+// marker of Cherrapunji
+var marker2 = L.marker([25.2702, 91.7323], {icon: ashish2}).addTo(map);
+
+marker2.bindPopup("<p>Cherrapunji </b> <img src='./assets/images/ashish.jpeg' style='width:100%;height:100%;'></p>").openPopup();
+
+// var popup = L.popup()
+//   .setLatLng([25.2702, 91.7323])
+//   .setContent("Cherrapunji")
+//   .openOn(map);
 
 
 
