@@ -2,7 +2,6 @@ body{
   background-color: aqua;
 }
 
-
 #title{
   font-family: Helvetica, sans-serif;
   font-size: 70px;
@@ -13,11 +12,7 @@ body{
   padding-left: 50px;
   margin-right: 700px;
 }
-/*
- a{
-  font-size: 30px;
-} 
-*/
+
 
 .linkText{
   font-size: 30px;
@@ -105,30 +100,4 @@ width: 20%;
   padding-right: 145px;
 
 }
-
-
-/*location input box*/
-
-
-
-/*
-.input-box{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-#fname{
-  margin-left: 1000px;
-}
-#location{
-  margin-left: 1000px;
-}
-
-input[type=text]{
-  width: 200px;
-  margin-left: 1000px;
-  
-} 
-
-*/
 
